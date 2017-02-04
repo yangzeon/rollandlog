@@ -32,6 +32,9 @@
 
 </head>
 <body>
+    <div class = "header_gallery">
+        <?php include("header.php") ?>
+    </div>
     <div class = "div_creature_gallery" class="container-fluid">
     <div class="div_card_investigator">
     <br>

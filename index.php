@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-
+    <title>DND跑团ROLL点记录器</title>
     <!-- jQuery CDN-->
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
     <script src="jquery.scrollTo.js"></script>
     <!-- bootstrap CDN-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
@@ -31,13 +30,7 @@
         <div class="dot"id="dot_6"></div>
     </div>
     <div class="div_page" id="div_main">
-        <div id="main_menu">
-            <div class="main_menu_item"><a href="javascript:;" onclick="gotoNextPage()">自助建卡</a></div>
-            <div class="main_menu_item"><a href="./creature-gallery.php">神话生物档案</a></div>
-            <div class="main_menu_item"><a href="./dice.php">投点</a></div>
-            <div class="main_menu_item"><a href="./logPainter.html">日志着色器</a></div>
-            <div class="main_menu_item"><a href="./team.php">团队角色查看</a></div>
-        </div>
+       <?php include("header.php") ?>
         <div id="div_dice_panel">
             <div id="div_menu">
 

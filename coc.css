@@ -3,7 +3,7 @@
 }
 #div_editor{
     background-color:#0ff;
-	background-image:url('cat.jpg');
+	background-image:url('roll.jpg');
 	background-attachment:fixed;
 	background-size: cover;
 }
@@ -264,6 +264,10 @@ div.card_list_row
 }
 /* creature.php  creature-gallery.php*/
 
+#header_gallery{
+	background-color:#00CCFF;
+	font-size: 11px; text-align: center; padding: 10px 0 10px 0; position: relative;
+}
 
 .div_creature_item a:visited{
     color:black;
@@ -311,13 +315,13 @@ div.creature_list_row{
 /*foot.php*/
 #footer_index
 {
-    background-color:#c3ffae;
+    background-color:#00CCFF;
     font-size: 11px; text-align: center; padding: 10px 0 10px 0; position: relative; 
-    margin-top:-31px;
+    margin-top:-50px;
 }
 #footer
 {
-    background-color:#c3ffae;
+    background-color:#00CCFF;
     font-size: 11px; text-align: center; padding: 10px 0 10px 0; position: relative; 
 }
 
@@ -395,7 +399,8 @@ div#page_6{
 	/*background-color:#f0e3e3;*/
 }
 #div_main{
-	background-image: linear-gradient(120deg, #21293b, #3f315e);
+	background-image: linear-gradient(120deg, #808080, #808080);
+	\\ 120deg, #21293b, #3f315e
 	/*background-image:url("star.jpg");
 	background-attachment:fixed;
 	background-size: 110%;*/
@@ -405,12 +410,12 @@ div#div_menu{
 	bottom:0;
 	left:0;
 	right:0;
-	height:250px;
-	width: 250px;
+	height:300px;
+	width: 300px;
 	margin:auto;
-	margin-bottom:30px;
+	margin-bottom:20px;
 	text-align:center;
-	background-image:url("oldsign.png");
+	background-image:url("sign.png");
 	background-repeat:no-repeat;
 	/*background-color:#8d919d;*/
 	opacity:0.9;
