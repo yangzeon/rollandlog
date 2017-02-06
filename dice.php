@@ -21,6 +21,9 @@
 </head>
 
 <body>
+<div class="heaher_dice">
+    <?php include("header.php") ?>
+</div>
 <div id = "div_card_arcade" class="container-fluid">
 <div class="div_card_investigator">
     <br>

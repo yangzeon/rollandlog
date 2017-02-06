@@ -23,6 +23,32 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 </head>
 
 <style type="text/css">
+	#main_menu
+	{
+
+		text-align:center;
+		padding:30px;
+		height:70px;
+	}
+	div.main_menu_item
+	{
+		width:100px;
+		float:left;
+	}
+	.main_menu_item a:visited{
+		color:black;
+		text-decoration:none;
+	}
+	.main_menu_item a:hover
+	{
+		color:#0000FF;
+		text-decoration:none;
+	}
+	.main_menu_item a
+	{
+		color:black;
+		font-weight:bold;
+	}
 body{
 	background-color: #D1EAF7
 	/*background-image: linear-gradient(90deg, #e3e1fc, #f6ffbe);*/
@@ -89,7 +115,17 @@ li{
 
 <body>
 <div id="div_page">
-<div>
+	<div class="div_page" id="div_main">
+		<div id="main_menu">
+		<div class="main_menu_item"><a href="./index.php">首页</a></div>
+		<div class="main_menu_item"><a href="javascript:;" onclick="gotoNextPage()">自助建卡</a></div>
+		<div class="main_menu_item"><a href="./creature-gallery.php">神话生物档案</a></div>
+		<div class="main_menu_item"><a href="./dice.php">投点</a></div>
+		<div class="main_menu_item"><a href="./logPainter.html">日志着色器</a></div>
+		<div class="main_menu_item"><a href="./team.php">团队角色查看</a></div>
+		</div>
+	</div>
+	<div>
 	<div class="div_center"><h3>跑团记录着色器</h3><h5>v2.2 by 风羽</h5></div>
 	<div class="div_italic">
 	<a href="http://aligo.github.io/log-colourer.js">前辈的mirc版传送门</a>

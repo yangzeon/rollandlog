@@ -51,7 +51,7 @@ function space($n){
 }
 
     //Connect
-    $mysqli = new mysqli("localhost","root","coc","coc");
+    $mysqli = new mysqli("localhost","coc","coc","coc");
     if ($mysqli->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }
@@ -80,7 +80,7 @@ function space($n){
             
             $cardName = str_replace(" ","_",$card['cName']); 
             $txtName =  $card['cID'].'_'.$cardName.'.txt';
-            $html .= '<a href="http://fny.me/coc/cards/'
+            $html .= '<a href="cards/'
             .$txtName .'">'.txt卡.'</a></div>';
             
             $html .='</div>';

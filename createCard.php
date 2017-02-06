@@ -1,6 +1,6 @@
  <?php
- //header('Access-Control-Allow-Origin: *');
- //header('Access-Control-Allow-Methods: GET, POST');
+// header('Access-Control-Allow-Origin: *');
+// header('Access-Control-Allow-Methods: GET, POST');
  include 'common.php';
  
  $typeArray = array (
@@ -167,7 +167,7 @@
      echo("<br><br>");
      echo($sql_create);
      echo("<br><br>");
-     $sql_insert="INSERT INTO Investigators (".$column.")VALUES (".$param.")";//需要手动修改逗号  
+     $sql_insert = "INSERT INTO Investigators (".$column.")VALUES (".$param.")";//需要手动修改逗号
      echo("<br><br>");
      $sql_insert2 = "INSERT INTO Investigators (".$column.")VALUES (".$data.")";
      
@@ -492,13 +492,13 @@ if(!file_exists($fileDir)){
 	
 }
 
-             echo("<p>调查员在线卡点这里 ->  <a href=\"http://localhost/coc/card.php?cardid=".$card["cID"]."\">"."http://localhost/coc/card.php?cardid=".$card["cID"]."</a></p>");
+             echo("<p>调查员在线卡点这里 ->  <a href=\"card.php?cardid=".$card["cID"]."\">"."card.php?cardid=".$card["cID"]."</a></p>");
              
-             echo("<p>TXT卡 下载点这里 ->  <a href=\"http://localhost/coc/cards/".$txtName."\">".$card["cName"]."</a></p>");
+             echo("<p>TXT卡 下载点这里 ->  <a href=\"cards/".$txtName."\">".$card["cName"]."</a></p>");
          }
          
      }else{
-        echo("数据库错误_(:з」∠)_");
+        echo("数据库错误_(:з」∠)_ccp");
      }
      $mysqli->close();
  }else{

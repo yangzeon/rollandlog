@@ -96,7 +96,7 @@ $specialSkillID = array(57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 
         $cID = 10000;
     }
     //Connect
-    $mysqli = new mysqli("localhost","root","coc","coc");
+    $mysqli = new mysqli("localhost","coc","coc","coc");
     if ($mysqli->connect_errno) {
         echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }

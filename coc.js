@@ -528,14 +528,14 @@ function createCard() {
     $.post(targetURL, { card: json }, function (data) {
         $("#div_link").html(data);
     });
-    /* deprecated -- using database json to generate txt now
+    //deprecated -- using database json to generate txt now
         //TXT卡
-        var targetURL = "create.php";
-        $.post(targetURL, { card: data }, function (data) {
+     //   var targetURL = "create.php";
+     //   $.post(targetURL, { card: data }, function (data) {
+//
+  //      }
+    //    );
 
-        }
-        );
-    */
 
     return true;
 }

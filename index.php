@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
 <div id = "div_editor" class="container-fluid">
     <div id="div_indicator">
         <div class="dot active" id="dot_1"></div>
@@ -27,10 +28,13 @@
         <div class="dot" id="dot_3"></div>
         <div class="dot" id="dot_4"></div>
         <div class="dot" id="dot_5"></div>
-        <div class="dot"id="dot_6"></div>
+        <div class="dot" id="dot_6"></div>
     </div>
     <div class="div_page" id="div_main">
-       <?php include("header.php") ?>
+
+
+                <?php include("header.php") ?>
+
         <div id="div_dice_panel">
             <div id="div_menu">
 
